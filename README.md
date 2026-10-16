@@ -21,6 +21,19 @@ By the end of this project, you should be able to:
 | [**01 - Loading the Data**](01_loading_the_data.ipynb) | Load both tables, check the merge key, combine them and save the result. |
 | [**02 - King County Project**](02_king_county_project.ipynb) | The project: the data description and the task in eight steps. It loads the data saved by notebook 01. |
 
+### Dominic's Work
+
+| File | Description |
+|---|---|
+| [**01 - Loading the Data (Dominic)**](01_loading_the_data_dominic.ipynb) | The merge, worked through: key check, type of merge, `data/eda.csv`. Run it first. |
+| [**02 - King County Project (Dominic)**](02_king_county_project_dominic.ipynb) | The full project in eight steps: RMSE as metric, split by house, EDA, `prepare()`, baselines, pipeline, tuning of three models with `GroupKFold`, one test, residual analysis, summary and conclusion. |
+| [**03 - Presentation (Dominic)**](03_presentation_dominic.ipynb) | The 5-minute version: the main decisions and figures, with notes on what to say and a Q&A appendix. |
+| [**Notizen (Deutsch)**](notizen_de_dominic.ipynb) | German companion notes: feature glossary, metrics, every finding and decision. |
+
+**Result:** the best model (Ridge on degree-2 polynomial features plus one-hot zip codes) reaches a test RMSE of $119,652 (R² 0.881), half the error of the rule-based baseline.
+
+AI-assisted (Claude), reviewed and explained by me.
+
 ### Additional Folders and Files
 
 | File / Folder | Description |
