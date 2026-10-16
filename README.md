@@ -28,6 +28,7 @@ By the end of this project, you should be able to:
 | [**01 - Loading the Data (Dominic)**](01_loading_the_data_dominic.ipynb) | The merge, worked through: key check, type of merge, `data/eda.csv`. Run it first. |
 | [**02 - King County Project (Dominic)**](02_king_county_project_dominic.ipynb) | The full project in eight steps: RMSE as metric, split by house, EDA, `prepare()`, baselines, pipeline, tuning of three models with `GroupKFold`, one test, residual analysis, summary and conclusion. |
 | [**03 - Presentation (Dominic)**](03_presentation_dominic.ipynb) | The 5-minute version: the main decisions and figures, with notes on what to say and a Q&A appendix. |
+| [**04 - Talk (Dominic)**](04_talk_dominic.ipynb) | The talk: the essential figures of notebook 02 in its order, each with a heading and one "What we see" line. No code. |
 | [**Notizen (Deutsch)**](notizen_de_dominic.ipynb) | German companion notes: feature glossary, metrics, every finding and decision. |
 
 **Result:** the best model (Ridge on degree-2 polynomial features plus one-hot zip codes) reaches a test RMSE of $119,652 (R² 0.881), half the error of the rule-based baseline.
